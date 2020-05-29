@@ -1,7 +1,10 @@
 # Wordpress-Auto-Detect-Site-Urls
-The README.md contains the code that you can use in your wp-config.php file to auto detect the current site URL and replace the WP_HOME and the WP_SITEURL variables. 
 
-It also contains code showing how you can switch dbs based on different environments.
+I was getting really frustrated on how i had to constantly change the URLs in the database every time I was switching environments and migrating dbs for wordpress sites.
+
+So I decided to write the below code which adds the ability to dynamicly switch the urls at runtime.
+
+It also contains code showing how you can switch dbs based on different host names.
 
 ```php
 

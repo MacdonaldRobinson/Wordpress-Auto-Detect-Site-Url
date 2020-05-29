@@ -1,6 +1,6 @@
 # Wordpress-Auto-Detect-Site-Urls
 
-I was getting really frustrated on how i had to constantly change the URLs in the database every time I was switching environments and migrating dbs for wordpress sites.
+I was getting really frustrated on how i had to constantly change the WP_HOME and the WP_SITEURL in the database every time I was switching environments and migrating dbs for wordpress sites.
 
 So I decided to write the below code to the wp-config.php file, which adds the ability to dynamicly switch the urls at runtime.
 

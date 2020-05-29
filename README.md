@@ -30,7 +30,6 @@ if($port == ':80' || $protocol == 'https')
 $url = $protocol.'://'.$serverName.$port;
 
 // Tells wordpress to use the auto detected urls instead of the ones in the db
-
 define( 'WP_HOME', $url );
 define( 'WP_SITEURL', $url );
 
